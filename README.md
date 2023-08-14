@@ -1,6 +1,6 @@
 # Machine Learning Analysis of Raman Spectra to Quantify the Organic Constituents in Complex Organic-Mineral Mixtures
 
-Welcome to the Raman analysis repository! This repository contains code, data, and documentation related to the analysis of memetic organic-mineral soil composition using Raman spectroscopy. The project aims to overcome challenges posed by complex organic/mineral compositions and fluorescence interference in soil analysis. Here we aim to provide the best practices on how to boost the quantitative power of Raman spectroscopy as a probe of chemical composition in complex mixtures
+Welcome to the Raman analysis repository! This repository contains code, data, and documentation related to the analysis of memetic organic-mineral soil composition using Raman spectroscopy. The project aims to overcome challenges posed by complex organic/mineral compositions and fluorescence interference in soil analysis. Here we aim to provide the best practices on how to boost the quantitative power of Raman spectroscopy as a probe of chemical composition in complex mixtures.
 
 ## Table of Contents
 
@@ -55,7 +55,7 @@ Important decisions in local agricultural policy and practice often hinge on the
 
 The Jupyter notebooks cover various aspects of the project, including data preprocessing and regression model development:
 
-- **Preprocessing:** Implementation and comparison of pre-processing methods for PLSR and CNN input. Techniques include Iterative Discrete Wavelet Transform (IDWT) baseline correction and spectral normalization and averaging as well as DWT dimensionality reduction, Savitzky-Golay smoothing, and noise effect.
-- **Regression Models:** Development of PLSR and CNN models to predict six amino acid proportions from Raman spectra. These models are trained and evaluated using cross-validation techniques, with model performance measured using R&sup2, MSE, and MAE metrics.
+- **Preprocessing:** Implementation and comparison of pre-processing methods for PLSR and CNN input. Techniques include Iterative Discrete Wavelet Transform (IDWT) baseline correction and spectral normalization and averaging as well as DWT dimensionality reduction, Savitzky-Golay smoothing, and the effect of random noise.
+- **Regression Models:** Development of PLSR and CNN models to predict six amino acid proportions from Raman spectra. These models are trained and evaluated using cross-validation techniques, with model performance measured using R^2, MSE, and MAE metrics.
 
 For more details, refer to the provided code and data files and the associated paper.
