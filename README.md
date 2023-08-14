@@ -56,6 +56,6 @@ Important decisions in local agricultural policy and practice often hinge on the
 The Jupyter notebooks cover various aspects of the project, including data preprocessing and regression model development:
 
 - **Preprocessing:** Implementation and comparison of pre-processing methods for PLSR and CNN input. Techniques include Iterative Discrete Wavelet Transform (IDWT) baseline correction and spectral normalization and averaging as well as DWT dimensionality reduction, Savitzky-Golay smoothing, and the effect of random noise.
-- **Regression Models:** Development of PLSR and CNN models to predict six amino acid proportions from Raman spectra. These models are trained and evaluated using cross-validation techniques, with model performance measured using R^2, MSE, and MAE metrics.
+- **Regression Models:** Development of PLSR and CNN models to predict six amino acid proportions from Raman spectra. These models are trained and evaluated using cross-validation techniques, with model performance measured using R<sup>2</sup>, MSE, and MAE metrics.
 
 For more details, refer to the provided code and data files and the associated paper.

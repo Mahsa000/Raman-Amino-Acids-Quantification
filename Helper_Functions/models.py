@@ -8,18 +8,10 @@ from tensorflow.keras import datasets, layers, models
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras import regularizers
 from keras.callbacks import ModelCheckpoint, EarlyStopping
-from sklearn.model_selection import GroupKFold
-from sklearn.model_selection import cross_val_predict
-from sklearn.model_selection import LeaveOneOut
+from sklearn.model_selection import GroupKFold, cross_val_predict, LeaveOneOut
 from sklearn import model_selection
 from models import *
-from sklearn.model_selection import GroupKFold
-from sklearn.model_selection import cross_val_predict
-from sklearn.model_selection import LeaveOneOut
-from sklearn import model_selection
-#define cross-validation method
-from sklearn.model_selection import RepeatedKFold
-from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import RepeatedKFold, cross_val_score
 
 def select_optimal_pls_components(specss_ave, y_ave, max_components=30, n_splits=10, n_repeats=3, random_state=1):
     cv = RepeatedKFold(n_splits=n_splits, n_repeats=n_repeats, random_state=random_state)
